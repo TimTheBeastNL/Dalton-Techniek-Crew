@@ -77,3 +77,8 @@ letter-spacing: normal;}
         
       }
     }
+
+/* de @media kijkt in dit voorbeeld naar je screen width en daarop doet hij aanpassingen aan de site */
+/* position staat voor de position, fixed zorgt er voor dat hij op een vaste plek blijft. LEft zorgt er voor de positie ten opzichte van de linkerkant etc. */
+/* margin betekent de ruimte tussen dingen, dat kan elke kant op gebruikt worden */
+/* . en dan een naam is de groep van de instellingen van de stijl  */
