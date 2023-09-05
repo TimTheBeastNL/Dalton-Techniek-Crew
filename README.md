@@ -1,3 +1,4 @@
 # Dalton-Techniek-Crew
 
-## Dit is een test voor Dalton College Voorburg's techniek crew
+### Een HTML project voor de Techniek Crew van het Dalton Voorburg.
+### Gemaakt Door Bram en Tim

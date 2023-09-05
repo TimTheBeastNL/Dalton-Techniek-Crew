@@ -7,11 +7,15 @@ body{
 }
 
 .title {
-  position: absolute;
+  position: relative;
   left: 50%;
   margin-top: 100px;
   transform: translate(-50%, -50%);
   color: #183D3D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .home{
@@ -36,16 +40,29 @@ height:30px;
 letter-spacing: normal;}
 
 .text{
-  position: absolute;
+  position: relative;
   left: 50%;
-  margin-top: 200px;
+  margin-top: 15px;
   transform: translate(-50%, -50%);
+  margin-bottom: 20px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   max-width: 40%;
   
   
 }
+
+.buttonmail{
+  background-color: transparent ;
+  border: none;
+  color: white;
+  font-family: 'Popins', sans-serif;
+  font-weight: bold;
+  color: white; 
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 
 @media screen and (max-width: 900px) {
   .Schoollink{
