@@ -54,7 +54,7 @@ letter-spacing: normal;}
 
 .buttonmail{
   background-color: transparent ;
-  border: none;
+  border: White;
   color: white;
   font-family: 'Popins', sans-serif;
   font-weight: bold;
@@ -89,8 +89,8 @@ letter-spacing: normal;}
     
     
       .text{
-        margin-top: 200px;
-        font-size: 15px;
+        margin-top: 300px;
+        font-size: 20px;
         
       }
     }
