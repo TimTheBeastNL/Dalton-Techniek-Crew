@@ -53,14 +53,14 @@ letter-spacing: normal;}
 }
 
 .buttonmail{
-  background-color: transparent ;
+  background-color: black ;
   border: White;
   color: white;
   font-family: 'Popins', sans-serif;
   font-weight: bold;
   color: white; 
   font-size: 16px;
-  text-decoration: underline;
+  text-decoration: ;
 }
 
 
