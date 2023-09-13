@@ -17,7 +17,7 @@
 .home{
   margin-top: 5px;
   width: 10%;
-  position: fixed; left: 10%; top: 0%;
+  position: fixed; left: 5%; top: 0%;
     text-align: center;
     background-color: transparent;
     margin-left: 5px;
@@ -26,7 +26,7 @@
   .Schoollink{
   margin-top: 5px;
   width: 10%;
-  position: fixed; left: 20%; top: 0%; 
+  position: fixed; left: 10%; top: 0%; 
     text-align: center;
     background-color: transparent;
     
@@ -35,7 +35,7 @@
       .Login{
     margin-top: 5px;
     width: 10%;
-    position: fixed; right: 5%; top: 0%;
+    position: fixed; right: 2%; top: 0%;
     text-align: center;
     background-color: transparent;
     margin-left: 5px;
