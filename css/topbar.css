@@ -58,9 +58,9 @@
 }
 
 .topbar a:hover {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid yellow;
 }
 
 .topbar a.active {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid blue;
 }
