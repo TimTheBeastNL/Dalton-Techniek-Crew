@@ -1,4 +1,4 @@
-.home, .Schoollink{
+.home, .Schoollink, .Login{
   font-family: 'Bold', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -33,7 +33,19 @@
     width: 100px;
     
   }
-  
+
+  {
+    .Login
+margin-top: 5px;
+  width: 10%;
+  position: fixed; right: 10%; top: 0%;
+    text-align: center;
+    background-color: transparent;
+    margin-right: 5px;
+    width: 100px;
+
+    
+  }
   .topbar{
 
     width: 100%;
