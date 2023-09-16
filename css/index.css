@@ -124,6 +124,14 @@ letter-spacing: normal;}
 .hidden {
   display: none;
 }
+.buttonmail2{
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+  margin: 2px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
 
 
 @media screen and (max-width: 900px) {
