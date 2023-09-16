@@ -98,35 +98,104 @@ letter-spacing: normal;} */
 
 
 @media screen and (max-width: 900px) {
+  
   .Schoollink{
-    position: fixed; left: 20%; top: 0%; 
+    position: fixed; left: 40%; top: 0%; 
   }
   
   .home{
-    position: fixed; left: 0%; top: 0%;}
+    position: fixed; left: -7%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
   
+  .portal{
+    position: fixed; left: 15%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
   
+  .Schoollink{
+    position: fixed; left: 50%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
+  
+  .Login{
+    position: fixed; right: -7%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
     .text{
-      margin-top: 200px;
-      font-size: 20px;
+      margin-top: 5px;
+      font-size: 16px;
+      margin-left: 5px;
+      
       
     }
+    
+    .container2{
+      max-width: 95%;
+    }
+    .container3 {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .iframe{
+      width: auto;
+      height: auto;
+      position: relative; left: 15%;
+    }
+}
+@media screen and (max-width: 400px) {
+  .Schoollink{
+    position: fixed; left: 40%; top: 0%; 
   }
-  @media screen and (max-width: 400px) {
-    .Schoollink{
-      position: fixed; left: 25%; top: 0%; 
+  
+  .home{
+    position: fixed; left: -9%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
+  
+  .portal{
+    position: fixed; left: 12%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
+  
+  .Schoollink{
+    position: fixed; left: 50%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
+  
+  .Login{
+    position: fixed; right: -9%; top: 0%;
+    font-size: 6px;
+    margin-left: 0px;
+  }
+    .text{
+      margin-top: 5px;
+      font-size: 16px;
+      margin-left: 5px;
+      
+      
     }
     
-    .home{
-      position: fixed; left: 0%; top: 0%;}
-    
-    
-      .text{
-        margin-top: 300px;
-        font-size: 20px;
-        
-      }
+    .container2{
+      max-width: 95%;
     }
+    .container3 {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .iframe{
+      width: 240px;
+      height: 135px;
+      position: relative; left: 17%;
+    }
+  }
 
 /* de @media kijkt in dit voorbeeld naar je screen width en daarop doet hij aanpassingen aan de site */
 /* position staat voor de position, fixed zorgt er voor dat hij op een vaste plek blijft. LEft zorgt er voor de positie ten opzichte van de linkerkant etc. */
