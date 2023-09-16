@@ -33,6 +33,12 @@ body::before {
   align-items: center;
 
 }
+.subtitle{
+  color: #FCE22A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
 
 .home{
   color: #5C8374;
@@ -127,6 +133,10 @@ letter-spacing: normal;} */
       .container2{
         max-width: 95%;
       }
+      .subtitle{
+       
+        margin-left: 10px;
+      }
   }
   @media screen and (max-width: 400px) {
     .Schoollink{
@@ -166,6 +176,11 @@ letter-spacing: normal;} */
       
       .container2{
         max-width: 95%;
+      }
+
+      .subtitle{
+       
+        margin-left: 10px;
       }
     }
 
