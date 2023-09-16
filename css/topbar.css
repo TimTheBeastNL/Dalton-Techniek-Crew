@@ -1,4 +1,4 @@
-.home, .Schoollink, .Login {
+.home, .Schoollink, .Login, .portal {
   font-family: 'Bold', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -23,10 +23,19 @@
     margin-left: 5px;
     width: 100px;
   }
+  .portal{
+    margin-top: 5px;
+    width: 10%;
+    position: fixed; left: 15%; top: 0%;
+      text-align: center;
+      background-color: transparent;
+      margin-left: 5px;
+      width: 150px;
+    }
   .Schoollink{
   margin-top: 5px;
   width: 10%;
-  position: fixed; left: 15%; top: 0%; 
+  position: fixed; left: 25%; top: 0%; 
     text-align: center;
     background-color: transparent;
     
