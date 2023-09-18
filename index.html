@@ -24,7 +24,33 @@
   <a href="/index.html" class="home">Home</a>
   <a href="/portal.html" class="portal">Video Portal</a>
   <a href="https://www.daltonvoorburg.nl"  target="_blank" class="Schoollink"> School</a>
-  <a href="/Login.html" class="Login"> Login</a>
+    
+    <form action="action_page.php" method="post">
+  <div class="Login">
+    <img src="img_avatar2.png" alt="avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <span class="usr-text"><b>Username</b></span>
+    <br>
+    <input class="usr" type="text" placeholder="Enter Username" name="uname" required>
+    <br>
+    <span class="usr-text"><b>Password</b></span>
+    <br>
+    <input class="usr" type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <button type="submit" class="login">Login</button>
+    <br>
+    <label>
+      <input class="checkbox" type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button onclick="window.location.href='/index.html';" type="button" class="cancelbtn">Cancel</button>
+  </div>
+</form>
+  < href="/Login.html" class="Login"> Login</>
 </div>
   
 <h1 class="title"> 
