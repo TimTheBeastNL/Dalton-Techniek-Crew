@@ -6,7 +6,7 @@ body{
   background-image url("/images/background.jpeg");
   background-repeat no-repeat, repeat;
   background-position center;
-  
+  background-color: #040D12;
 
 }
 body::before {
