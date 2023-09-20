@@ -3,10 +3,10 @@ body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
   /* background-color: #040D12; */
-  background-image url("/images/background.jpeg");
-  background-repeat no-repeat, repeat;
-  background-position center;
-  background-color: #040D12;
+  background-image url("/images/background.jpeg"
+  background-repeat no-repeat, repeat
+  background-position center
+  background-color: #000000;
 
 }
 body::before {
