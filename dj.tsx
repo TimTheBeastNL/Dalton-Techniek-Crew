@@ -1,21 +1,11 @@
-import React from 'react';
-
-const FullScreenIframePage: React.FC = () => {
+const FormsPage: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100vh', overflow: 'hidden' }}>
-      <iframe
-        title="DJ"
-        src="https://daltonvoorburg.nl" // Replace with the URL you want to embed
-        frameBorder="0"
-        style={{
-          width: '100%',
-          height: '100%',
-          border: 'none',
-        }}
-        allowFullScreen
-      />
-    </div>
+    <html>
+      <body style="margin:0px;padding:0px;overflow:hidden">
+    <iframe src="http://www.daltonvoorburg.nl" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+</body>
+    </html>
   );
 };
 
-export default FullScreenIframePage;
+export default FormsPage;
